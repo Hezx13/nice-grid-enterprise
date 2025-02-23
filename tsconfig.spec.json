@@ -2,6 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "emitDecoratorMetadata": false,
+    "composite": true,
     "noImplicitAny": false,
     "module": "commonjs",
     "types": ["jest", "node"]
